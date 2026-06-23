@@ -1,20 +1,21 @@
-﻿{
+{
+    "schemaVersion": "1.0",
     "scannedAt":  "2026-04-23 19:10:29",
-    "computerName":  "DESKTOP-7R4TKIP",
-    "userName":  "윤존예",
+    "computerName":  "SAMPLE-WIN",
+    "userName":  "sample",
     "osVersion":  "Microsoft Windows 10 Pro",
     "findings":  [
                      {
                          "level":  "warning",
                          "category":  "check_autorun",
                          "title":  "확인 필요한 자동실행: MPSch.exe",
-                         "detail":  "사용자 폴더의 서명 없는 자동실행. 경로: File not found: C:\\Users\\윤존예\\AppData\\Roaming\\MatchPop\\common\\bin\\MPSch.exe"
+                         "detail":  "사용자 폴더의 서명 없는 자동실행. 경로: File not found: C:\\Users\\sample\\AppData\\Roaming\\MatchPop\\common\\bin\\MPSch.exe"
                      },
                      {
                          "level":  "warning",
                          "category":  "check_scheduled",
                          "title":  "AppData에서 실행되는 예약 작업: o2sch1",
-                         "detail":  "실행파일: C:\\Users\\윤존예\\AppData\\Roaming\\MatchPop\\common\\bin\\MPSch.exe. 본인이 설치한 프로그램이면 안전합니다."
+                         "detail":  "실행파일: C:\\Users\\sample\\AppData\\Roaming\\MatchPop\\common\\bin\\MPSch.exe. 본인이 설치한 프로그램이면 안전합니다."
                      },
                      {
                          "level":  "warning",
@@ -173,7 +174,7 @@
                                      "pid_":  4660,
                                      "cpu":  3.5,
                                      "memoryMB":  434.6,
-                                     "path":  "C:\\Users\\윤존예\\AppData\\Roaming\\Claude\\claude-code\\2.1.111\\claude.exe",
+                                     "path":  "C:\\Users\\sample\\AppData\\Roaming\\Claude\\claude-code\\2.1.111\\claude.exe",
                                      "risk":  "safe",
                                      "note":  "Anthropic - Claude Desktop AI 어시스턴트",
                                      "sig":  null,
@@ -228,7 +229,7 @@
                                      "pid_":  12764,
                                      "cpu":  2.2,
                                      "memoryMB":  429.4,
-                                     "path":  "C:\\Users\\윤존예\\AppData\\Roaming\\Claude\\claude-code\\2.1.111\\claude.exe",
+                                     "path":  "C:\\Users\\sample\\AppData\\Roaming\\Claude\\claude-code\\2.1.111\\claude.exe",
                                      "risk":  "safe",
                                      "note":  "Anthropic - Claude Desktop AI 어시스턴트",
                                      "sig":  null,
@@ -256,7 +257,7 @@
                                          "pid_":  12764,
                                          "remoteAddress":  "160.79.104.10",
                                          "remotePort":  443,
-                                         "path":  "C:\\Users\\윤존예\\AppData\\Roaming\\Claude\\claude-code\\2.1.111\\claude.exe",
+                                         "path":  "C:\\Users\\sample\\AppData\\Roaming\\Claude\\claude-code\\2.1.111\\claude.exe",
                                          "risk":  "safe",
                                          "note":  "Anthropic - Claude Desktop AI 어시스턴트",
                                          "vtIp":  null
@@ -1253,10 +1254,10 @@
                                       {
                                           "category":  "",
                                           "entry":  "MPSch.exe",
-                                          "image":  "File not found: C:\\Users\\윤존예\\AppData\\Roaming\\MatchPop\\common\\bin\\MPSch.exe",
+                                          "image":  "File not found: C:\\Users\\sample\\AppData\\Roaming\\MatchPop\\common\\bin\\MPSch.exe",
                                           "signer":  "",
                                           "verified":  false,
-                                          "launchString":  "\"C:\\Users\\윤존예\\AppData\\Roaming\\MatchPop\\common\\bin\\MPSch.exe\" ",
+                                          "launchString":  "\"C:\\Users\\sample\\AppData\\Roaming\\MatchPop\\common\\bin\\MPSch.exe\" ",
                                           "sha256":  "",
                                           "risk":  "warning",
                                           "note":  "사용자 폴더의 서명 없는 자동실행",
@@ -1724,7 +1725,7 @@
                                                 "name":  "o2sch1",
                                                 "path":  "\\",
                                                 "state":  "Ready",
-                                                "execute":  "C:\\Users\\윤존예\\AppData\\Roaming\\MatchPop\\common\\bin\\MPSch.exe",
+                                                "execute":  "C:\\Users\\sample\\AppData\\Roaming\\MatchPop\\common\\bin\\MPSch.exe",
                                                 "arguments":  null,
                                                 "risk":  "warning",
                                                 "note":  "사용자 AppData 폴더에서 실행 - 확인 필요"
